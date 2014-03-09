@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Bicorn::VERSION
   spec.authors       = ["Konboi"]
   spec.email         = ["ryosuke.yabuki@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{bicorn can output  STDOUT and STDERR with file}
+  spec.description   = %q{bicorn can output  STDOUT and STDERR with file}
+  spec.homepage      = "https://github.com/Konboi/bicorn"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
