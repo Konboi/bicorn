@@ -1,6 +1,6 @@
 # Bicorn
 
-TODO: Write a gem description
+Bicorn is can output STDOUT and STDERR with other file easily.
 
 ## Installation
 
@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This is a sample code.
+
+```ruby
+require 'bicorn'
+
+out_file = File.open("out.log", "a")
+err_file = File.open("err.log", "a" )
+
+$std_out = Bicorn.out(out_file)
+$std_err = Bicorn.err(err_file)
+
+puts 'hoge'
+raise 'fuga'
+
+```
 
 ## Contributing
 
