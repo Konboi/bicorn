@@ -1,6 +1,6 @@
 # Bicorn
 
-Bicorn is can output STDOUT and STDERR with other file easily.
+Bicorn can output STDOUT and STDERR with other file easily.
 
 ## Installation
 
